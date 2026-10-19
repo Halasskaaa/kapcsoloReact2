@@ -16,12 +16,12 @@ const App = () => {
   const lampaKapcsolasa = () => {
     setBekapcsolva((elozo)=>!elozo)
     console.log(bekapcsolva)
+    novel();
   }
   return (
     <>
     <h1>Lifting State Up</h1>
-    <Vezerlopult 
-      novel={novel}
+    <Vezerlopult
       lampaKapcsolasa={lampaKapcsolasa}>
     </Vezerlopult>
     <Lampa ertek={ertek}></Lampa>
