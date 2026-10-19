@@ -16,7 +16,7 @@ const App = () => {
     <>
     <h1>Lifting State Up</h1>
     <Vezerlopult></Vezerlopult>
-    <Lampa></Lampa>
+    <Lampa ertek={ertek}></Lampa>
     </>
   )
 }
